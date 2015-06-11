@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android_Route</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="car_prefence">偏好</string>
+    <string name="mode_normal">常规</string>
+    <string name="mode_distance">距离短</string>
+    <string name="mode_jam">避免拥堵</string>
+
+</resources>
