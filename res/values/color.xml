@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bar_back">#F8F8F8</color>
+     <color name="bar_press">#B8B8B8</color>
+     <color name="blue_text">#3385C9</color>
+     <color name="dark_grey">#555555</color>
+</resources>
