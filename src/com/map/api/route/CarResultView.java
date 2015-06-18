@@ -100,6 +100,9 @@ public class CarResultView extends LinearLayout{
 			mTimeText.setTextColor(Color.BLUE);
 			mDistanceText.setTextColor(Color.BLUE);
 			mModeNameText.setBackgroundResource(R.drawable.route_bg_blue);
+			if(mResultEntity==null){
+				return;
+			}
 			mResultEntity.mSelecedPolyline.setZIndex(0.7f);
 			mAmap.moveCamera(CameraUpdateFactory.newLatLngBounds(mResultEntity.mRouteBounds, 10));
 			StringBuffer sBuffer=new StringBuffer();
@@ -115,6 +118,9 @@ public class CarResultView extends LinearLayout{
 			mTimeText.setTextColor(Color.BLACK);
 			mDistanceText.setTextColor(Color.BLACK);
 			mModeNameText.setBackgroundResource(R.drawable.check_nomal);
+			if(mResultEntity==null){
+				return;
+			}
 			mResultEntity.mSelecedPolyline.setZIndex(0.3f);
 		}
 	}
